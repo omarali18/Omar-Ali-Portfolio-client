@@ -3,7 +3,7 @@ import "./BeingDeveloper.css"
 
 const BeingDeveloper = () => {
     return (
-        <div className="text-center being-developer">
+        <div className="text-center being-developer" id="about">
             <div className="">
                 <h2 className="fw-bold">Being a developer is tough.</h2>
                 <p>“Every great developer you know got there by solving problems they were unqualified to solve until they actually did it.” </p>
