@@ -1,0 +1,28 @@
+
+.banner-container{
+    background-color: rgb(230, 230, 230);
+}
+.banner-detail{
+    padding-top: 13rem;
+}
+.banner-detail h1{
+    font-family: "fangsong";
+}
+.banner-detail a{
+    margin-top: 20px;
+}
+.banner-resume{
+    background-color: tomato;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+@media only screen and (max-width:550px) {
+    .banner-detail{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+}
