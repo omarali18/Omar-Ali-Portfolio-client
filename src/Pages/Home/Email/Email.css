@@ -34,7 +34,7 @@
     border: none;
     padding: 10px;
     width: 80%;
-    font-family: 'cursive';
+    /* font-family: 'cursive'; */
 }
 .form-container textarea{
    height: 138px;

@@ -1,10 +1,11 @@
 import React from 'react';
-import { Card, Button, Col } from 'react-bootstrap';
+import { Card, Button, Col, Nav } from 'react-bootstrap';
+import { HashLink } from 'react-router-hash-link';
+import DetaileModal from '../DetaileModal/DetaileModal';
 import "./Project.css"
 
 const Project = ({ project }) => {
-    console.log(project);
-    const { name, img1, description1, description2, description3 } = project
+    const { name, img1, description1, description2, description3, id } = project
     return (
         <div>
             <Col>
@@ -13,13 +14,13 @@ const Project = ({ project }) => {
                     <Card.Body>
                         <Card.Title>{name}</Card.Title>
                         <Card.Text>
-                            <ul>
-                                <li>{description1}</li>
-                                <li>{description2}</li>
-                                <li>{description3}</li>
-                            </ul>
+
+                            <li>{description1}</li>
+                            <li>{description2}</li>
+                            <li>{description3}</li>
+
                         </Card.Text>
-                        <div className="text-center"><Button>Details</Button></div>
+                        <div className="text-center"><Nav.Link as={HashLink} to={`/Project/detail/${id}`}><Button>Details</Button></Nav.Link></div>
                     </Card.Body>
                 </Card>
             </Col>

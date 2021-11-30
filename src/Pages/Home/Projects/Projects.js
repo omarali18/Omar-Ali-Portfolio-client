@@ -1,7 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import assign12 from "../../../Images/12/assign-12.png"
-import assign11 from "../../../Images/11/assign-11-1.png"
-import assign10 from "../../../Images/10/assign-10.png"
 import "./Projects.css"
 import Project from '../Project/Project';
 import { Row } from 'react-bootstrap';
