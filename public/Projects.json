@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "name": "CAR SELLER",
+        "img1": "https://i.ibb.co/DVKchdm/assign-12.jpg",
+        "img2": "https://i.ibb.co/rQZP8v7/assign-12-3.jpg",
+        "img3": "https://i.ibb.co/tB34yXS/assign-12-2.jpg",
+        "img4": "",
+        "description1": "A fully functional, full-stack web app.",
+        "description2": "admin non-admin function is created.",
+        "description3": "Product managing function has been added.",
+        "description4": "",
+        "description5": "",
+        "description6": "",
+        "websitetUrl": "https://bd-car-seller.web.app/home",
+        "clientUrl": "https://github.com/omarali18/niche-website-client",
+        "serverUrl": "https://github.com/omarali18/niche-website-server"
+    },
+    {
+        "id": 2,
+        "name": "BEST TOUR PLANNER",
+        "img1": "https://i.ibb.co/TgLLthZ/assign-11-1.jpg",
+        "img2": "https://i.ibb.co/JFxT0M7/assign-11-3.jpg",
+        "img3": "https://i.ibb.co/SyK8FR4/assign-11-2.jpg",
+        "img4": "",
+        "description1": "A fully functional website on tourism has been created.",
+        "description2": "Authentication-related functionality added using firebase.",
+        "description3": "Some functionality has been used for the client. E.g. the client will be able to view his orders, and delete them, et",
+        "description4": "",
+        "description5": "",
+        "description6": "",
+        "websitetUrl": "https://best-tour-planner.web.app/",
+        "clientUrl": "https://github.com/omarali18/tourism-website-client",
+        "serverUrl": "https://github.com/omarali18/tourism-website-server"
+    },
+    {
+        "id": 3,
+        "name": "SPECIALIZED HOSPITAL",
+        "img1": "https://i.ibb.co/XShwF3D/assign-10.jpg",
+        "img2": "https://i.ibb.co/7YtyKBh/assign-10-1.jpg",
+        "img3": "https://i.ibb.co/rc6Rb6s/assign-10-2.jpg",
+        "img4": "",
+        "description1": "A general hospital-related website has been created.",
+        "description2": "A general authentication using Firebase has been implemented.",
+        "description3": "The code of the website has been arranged.",
+        "description4": "",
+        "description5": "",
+        "description6": "",
+        "websitetUrl": "https://specialized-hospital-180b9.web.app/home",
+        "clientUrl": "https://github.com/omarali18/specialized-hospitals",
+        "serverUrl": ""
+    }
+]

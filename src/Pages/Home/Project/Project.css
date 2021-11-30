@@ -1,0 +1,11 @@
+
+
+.single-card{
+    height: 500px;
+}
+/* 
+@media only screen and (max-width:600px) {
+    .single-card{
+        margin-top: 30px;
+    }
+} */
