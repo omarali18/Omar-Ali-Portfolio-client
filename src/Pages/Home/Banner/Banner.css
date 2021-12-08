@@ -21,6 +21,13 @@
     color: white;
     font-weight: 600;
 }
+.banner-resume:hover{
+    background-color: rgb(94, 146, 78);
+    padding: 20px;
+    color: black;
+    font-size: 20px;
+    transition: .5s;
+}
 
 @media only screen and (max-width:550px) {
     .banner-detail{

@@ -13,7 +13,7 @@ const Header = () => {
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                         <Nav className="me-auto">
-                            <Nav.Link href="https://drive.google.com/file/d/18ucOHrsrx-eWiqWq6fcDdlMNLNN9rNMR/view?usp=sharing" target="blank"> <button className="resume-btn">Download Resume</button> </Nav.Link>
+                            <Nav.Link href="https://drive.google.com/file/d/1xNyOiSx3j_DW7fPcwl_lzrOmt8FgqTbY/view?usp=sharing" target="blank"> <button className="resume-btn">Download Resume</button> </Nav.Link>
                         </Nav>
                         <Nav>
                             <Nav.Link as={HashLink} to="/home#home">Home</Nav.Link>

@@ -9,4 +9,8 @@
     color: white;
     font-weight: 600;
 }
-
+.resume-btn:hover{
+    background-color: rgb(201, 85, 247);
+    color: black;
+    transition: .5s;
+}

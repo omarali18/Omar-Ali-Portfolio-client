@@ -7,7 +7,8 @@ import { Row } from 'react-bootstrap';
 const Projects = () => {
     const [allProject, setAllProject] = useState([])
     useEffect(() => {
-        fetch("./Projects.json")
+        // fetch("/Projects.json")
+        fetch("https://evening-tor-38197.herokuapp.com/project")
             .then(res => res.json())
             .then(data => setAllProject(data))
     }, [])
