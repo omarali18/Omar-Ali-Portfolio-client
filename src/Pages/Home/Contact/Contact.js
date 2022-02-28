@@ -1,8 +1,13 @@
 import React, { useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
-import "./Email.css"
+import "./Contact.css"
+import { Typography } from '@mui/material';
 
-const Email = () => {
+
+// npm install emailjs-com --save
+
+
+const Contact = () => {
     const [success, setSuccess] = useState(false)
     const form = useRef();
 
@@ -26,6 +31,12 @@ const Email = () => {
     }, 8000)
     return (
         <div className="email-contaimer" id="contact">
+            <div>
+                <Typography variant="body1" sx={{fontSize:{md:"4rem", xs:"2rem"}}}>
+                CONTACT ME
+                </Typography>
+                <Typography sx={{fontSize:{md:"7rem", xs:"2rem"}, mt:{md:"-50px", xs:"-20px"}, ml:{xs:"20px"}}} className='constact-text'>CONTACT ME</Typography>
+            </div>
 
             <div className="form-container">
                 <h1>Say Hello!</h1>
@@ -39,7 +50,7 @@ const Email = () => {
                         <div className="col-12 col-md-6">
                             <label htmlFor="nmae">Full Name</label> <br />
                             <input type="text" name="name" placeholder="Your name" className="mb-4" /> <br />
-                            <label htmlFor="email">Enter Email</label> <br />
+                            <label htmlFor="email">Enter Your Email</label> <br />
                             <input type="email" name="email" placeholder="Your email" />
                         </div>
                         <div className="col-12 col-md-6">
@@ -60,4 +71,4 @@ const Email = () => {
     );
 };
 
-export default Email;
+export default Contact;

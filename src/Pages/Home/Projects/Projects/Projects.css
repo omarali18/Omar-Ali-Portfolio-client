@@ -1,0 +1,60 @@
+.service-title {
+  text-align: center;
+  color: rgb(231, 61, 208);
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+.service-container {
+  width: 75%;
+}
+.grid-item {
+  /* background: radial-gradient(#111 50%, #000 100%); */
+  overflow: hidden;
+  position: relative;
+}
+.card-box {
+  background-color: #b2c1d4;
+  width: 100%;
+}
+
+.grid-item:hover .card-box {
+  transform: scale(1) translateY(-10px);
+  opacity: 0.3;
+  transition: all 0.5s ease-out;
+}
+.direct-link {
+  text-decoration: none;
+}
+.detail-button {
+  position: absolute;
+  left: 0;
+  bottom: 130px;
+  width: 100%;
+  margin: auto;
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  display: none;
+  transition: 0s;
+}
+.detail-button .detail {
+  background-color: #0d6efd;
+  color: white;
+  font-weight: 600;
+  padding: 10px 30px;
+}
+.detail-button .detail:hover {
+  background-color: rgb(56, 56, 230);
+  color: white;
+  font-weight: 600;
+  padding: 10px 30px;
+}
+.grid-item:hover .detail-button {
+  display: block;
+}
+/* @media only screen and (max-width: 540px) {
+  .service-container {
+    width: 90%;
+  }
+} */
